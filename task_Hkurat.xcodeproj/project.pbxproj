@@ -8,20 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		6782E811224667CB00EE19B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6782E810224667CB00EE19B5 /* AppDelegate.swift */; };
-		6782E813224667CB00EE19B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6782E812224667CB00EE19B5 /* ViewController.swift */; };
+		6782E813224667CB00EE19B5 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6782E812224667CB00EE19B5 /* Register.swift */; };
 		6782E816224667CB00EE19B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6782E814224667CB00EE19B5 /* Main.storyboard */; };
-		6782E818224667CD00EE19B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6782E817224667CD00EE19B5 /* Assets.xcassets */; };
 		6782E81B224667CD00EE19B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6782E819224667CD00EE19B5 /* LaunchScreen.storyboard */; };
+		6782E82A224675D800EE19B5 /* Cairo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6782E823224675D800EE19B5 /* Cairo-Black.ttf */; };
+		6782E82B224675D800EE19B5 /* Cairo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6782E824224675D800EE19B5 /* Cairo-Bold.ttf */; };
+		6782E82C224675D800EE19B5 /* Cairo-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6782E825224675D800EE19B5 /* Cairo-ExtraLight.ttf */; };
+		6782E82D224675D800EE19B5 /* Cairo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6782E826224675D800EE19B5 /* Cairo-Light.ttf */; };
+		6782E82E224675D800EE19B5 /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6782E827224675D800EE19B5 /* Cairo-Regular.ttf */; };
+		6782E82F224675D800EE19B5 /* Cairo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6782E828224675D800EE19B5 /* Cairo-SemiBold.ttf */; };
+		6782E830224675D800EE19B5 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6782E829224675D800EE19B5 /* OFL.txt */; };
+		6782E8332246793600EE19B5 /* CornerReduis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6782E8322246793600EE19B5 /* CornerReduis.swift */; };
+		678B20972246D75E00B44ABA /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678B20962246D75E00B44ABA /* LogIn.swift */; };
+		678B20992246E6E900B44ABA /* cellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678B20982246E6E900B44ABA /* cellData.swift */; };
+		678B209D2246E75100B44ABA /* Catagories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678B209C2246E75100B44ABA /* Catagories.swift */; };
+		67D63E122246FC0200840B08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67D63E112246FC0100840B08 /* Assets.xcassets */; };
+		67D63E142247042400840B08 /* subCatagoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D63E132247042400840B08 /* subCatagoriesVC.swift */; };
+		67D63E16224704CF00840B08 /* subCatacell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D63E15224704CF00840B08 /* subCatacell.swift */; };
+		FD4BFE25E323AD9CD6F19B60 /* Pods_task_Hkurat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB202AC69EDFE04903253C7A /* Pods_task_Hkurat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		288F0EB583C7BC0283E27788 /* Pods-task_Hkurat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-task_Hkurat.debug.xcconfig"; path = "Target Support Files/Pods-task_Hkurat/Pods-task_Hkurat.debug.xcconfig"; sourceTree = "<group>"; };
 		6782E80D224667CB00EE19B5 /* task_Hkurat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = task_Hkurat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6782E810224667CB00EE19B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6782E812224667CB00EE19B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6782E812224667CB00EE19B5 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 		6782E815224667CB00EE19B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6782E817224667CD00EE19B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6782E81A224667CD00EE19B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6782E81C224667CD00EE19B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6782E823224675D800EE19B5 /* Cairo-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Black.ttf"; sourceTree = "<group>"; };
+		6782E824224675D800EE19B5 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		6782E825224675D800EE19B5 /* Cairo-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-ExtraLight.ttf"; sourceTree = "<group>"; };
+		6782E826224675D800EE19B5 /* Cairo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Light.ttf"; sourceTree = "<group>"; };
+		6782E827224675D800EE19B5 /* Cairo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Regular.ttf"; sourceTree = "<group>"; };
+		6782E828224675D800EE19B5 /* Cairo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-SemiBold.ttf"; sourceTree = "<group>"; };
+		6782E829224675D800EE19B5 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		6782E8322246793600EE19B5 /* CornerReduis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerReduis.swift; sourceTree = "<group>"; };
+		678B20962246D75E00B44ABA /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
+		678B20982246E6E900B44ABA /* cellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellData.swift; sourceTree = "<group>"; };
+		678B209C2246E75100B44ABA /* Catagories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catagories.swift; sourceTree = "<group>"; };
+		67D63E112246FC0100840B08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67D63E132247042400840B08 /* subCatagoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subCatagoriesVC.swift; sourceTree = "<group>"; };
+		67D63E15224704CF00840B08 /* subCatacell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subCatacell.swift; sourceTree = "<group>"; };
+		B57C6E78DD0D32152CDBE08B /* Pods-task_Hkurat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-task_Hkurat.release.xcconfig"; path = "Target Support Files/Pods-task_Hkurat/Pods-task_Hkurat.release.xcconfig"; sourceTree = "<group>"; };
+		EB202AC69EDFE04903253C7A /* Pods_task_Hkurat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_task_Hkurat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD4BFE25E323AD9CD6F19B60 /* Pods_task_Hkurat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +69,11 @@
 		6782E804224667CB00EE19B5 = {
 			isa = PBXGroup;
 			children = (
+				6782E822224675D800EE19B5 /* cairo */,
 				6782E80F224667CB00EE19B5 /* task_Hkurat */,
 				6782E80E224667CB00EE19B5 /* Products */,
+				78084D918E041F777E9F3512 /* Pods */,
+				973AC68B3FF887DBE4EEFCD8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +88,75 @@
 		6782E80F224667CB00EE19B5 /* task_Hkurat */ = {
 			isa = PBXGroup;
 			children = (
+				678B20952246D72600B44ABA /* Views */,
+				678B20942246D70C00B44ABA /* controller */,
+				6782E831224678F400EE19B5 /* extensions */,
 				6782E810224667CB00EE19B5 /* AppDelegate.swift */,
-				6782E812224667CB00EE19B5 /* ViewController.swift */,
 				6782E814224667CB00EE19B5 /* Main.storyboard */,
-				6782E817224667CD00EE19B5 /* Assets.xcassets */,
 				6782E819224667CD00EE19B5 /* LaunchScreen.storyboard */,
+				67D63E112246FC0100840B08 /* Assets.xcassets */,
 				6782E81C224667CD00EE19B5 /* Info.plist */,
 			);
 			path = task_Hkurat;
+			sourceTree = "<group>";
+		};
+		6782E822224675D800EE19B5 /* cairo */ = {
+			isa = PBXGroup;
+			children = (
+				6782E823224675D800EE19B5 /* Cairo-Black.ttf */,
+				6782E824224675D800EE19B5 /* Cairo-Bold.ttf */,
+				6782E825224675D800EE19B5 /* Cairo-ExtraLight.ttf */,
+				6782E826224675D800EE19B5 /* Cairo-Light.ttf */,
+				6782E827224675D800EE19B5 /* Cairo-Regular.ttf */,
+				6782E828224675D800EE19B5 /* Cairo-SemiBold.ttf */,
+				6782E829224675D800EE19B5 /* OFL.txt */,
+			);
+			path = cairo;
+			sourceTree = "<group>";
+		};
+		6782E831224678F400EE19B5 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6782E8322246793600EE19B5 /* CornerReduis.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		678B20942246D70C00B44ABA /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				6782E812224667CB00EE19B5 /* Register.swift */,
+				678B20962246D75E00B44ABA /* LogIn.swift */,
+				678B209C2246E75100B44ABA /* Catagories.swift */,
+				67D63E132247042400840B08 /* subCatagoriesVC.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		678B20952246D72600B44ABA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				678B20982246E6E900B44ABA /* cellData.swift */,
+				67D63E15224704CF00840B08 /* subCatacell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		78084D918E041F777E9F3512 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				288F0EB583C7BC0283E27788 /* Pods-task_Hkurat.debug.xcconfig */,
+				B57C6E78DD0D32152CDBE08B /* Pods-task_Hkurat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		973AC68B3FF887DBE4EEFCD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB202AC69EDFE04903253C7A /* Pods_task_Hkurat.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6782E81F224667CD00EE19B5 /* Build configuration list for PBXNativeTarget "task_Hkurat" */;
 			buildPhases = (
+				631C87F9055DDFC340870CFE /* [CP] Check Pods Manifest.lock */,
 				6782E809224667CB00EE19B5 /* Sources */,
 				6782E80A224667CB00EE19B5 /* Frameworks */,
 				6782E80B224667CB00EE19B5 /* Resources */,
+				5E6B4423C4CA2650BF778873 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,21 +219,85 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6782E830224675D800EE19B5 /* OFL.txt in Resources */,
 				6782E81B224667CD00EE19B5 /* LaunchScreen.storyboard in Resources */,
-				6782E818224667CD00EE19B5 /* Assets.xcassets in Resources */,
+				6782E82C224675D800EE19B5 /* Cairo-ExtraLight.ttf in Resources */,
+				6782E82F224675D800EE19B5 /* Cairo-SemiBold.ttf in Resources */,
+				67D63E122246FC0200840B08 /* Assets.xcassets in Resources */,
+				6782E82E224675D800EE19B5 /* Cairo-Regular.ttf in Resources */,
+				6782E82B224675D800EE19B5 /* Cairo-Bold.ttf in Resources */,
 				6782E816224667CB00EE19B5 /* Main.storyboard in Resources */,
+				6782E82A224675D800EE19B5 /* Cairo-Black.ttf in Resources */,
+				6782E82D224675D800EE19B5 /* Cairo-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E6B4423C4CA2650BF778873 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-task_Hkurat/Pods-task_Hkurat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TinyConstraints.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-task_Hkurat/Pods-task_Hkurat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		631C87F9055DDFC340870CFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-task_Hkurat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6782E809224667CB00EE19B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6782E813224667CB00EE19B5 /* ViewController.swift in Sources */,
+				6782E813224667CB00EE19B5 /* Register.swift in Sources */,
 				6782E811224667CB00EE19B5 /* AppDelegate.swift in Sources */,
+				67D63E142247042400840B08 /* subCatagoriesVC.swift in Sources */,
+				6782E8332246793600EE19B5 /* CornerReduis.swift in Sources */,
+				678B20992246E6E900B44ABA /* cellData.swift in Sources */,
+				678B20972246D75E00B44ABA /* LogIn.swift in Sources */,
+				678B209D2246E75100B44ABA /* Catagories.swift in Sources */,
+				67D63E16224704CF00840B08 /* subCatacell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +441,7 @@
 		};
 		6782E820224667CD00EE19B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 288F0EB583C7BC0283E27788 /* Pods-task_Hkurat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +459,7 @@
 		};
 		6782E821224667CD00EE19B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B57C6E78DD0D32152CDBE08B /* Pods-task_Hkurat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

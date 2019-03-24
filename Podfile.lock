@@ -1,0 +1,24 @@
+PODS:
+  - Cosmos (18.0.1)
+  - IQKeyboardManagerSwift (6.2.0)
+  - TinyConstraints (3.3.1)
+
+DEPENDENCIES:
+  - Cosmos
+  - IQKeyboardManagerSwift
+  - TinyConstraints
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Cosmos
+    - IQKeyboardManagerSwift
+    - TinyConstraints
+
+SPEC CHECKSUMS:
+  Cosmos: 7dfaa3f52584ca5f94ab74b5c2e264019cc9f7f5
+  IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
+  TinyConstraints: dbf7519aefc01ea59d62244300c7718aec68e280
+
+PODFILE CHECKSUM: 5fcbb18dbcfb3fd40147153985176d07484c84c1
+
+COCOAPODS: 1.6.1
