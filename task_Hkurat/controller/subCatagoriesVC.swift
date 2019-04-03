@@ -35,6 +35,9 @@ class subCatagoriesVC: UIViewController {
 
         print(id)
         titlelbl.text = titleOfSubCata
+        tableViewSubCata.tableFooterView = UIView()
+        tableViewSubCata.separatorInset = .zero
+        tableViewSubCata.contentInset = .zero
         tableViewSubCata.dataSource = self
         tableViewSubCata.delegate = self
         handelData()
@@ -56,7 +59,7 @@ class subCatagoriesVC: UIViewController {
                 print(self.productsData)
                 self.tableViewSubCata.reloadData()
             }else{
-                self.showError("Error", "there are some problems Ckeck your Internet")
+                self.showError("there are some problems Ckeck your Innternet" ,"Error")
             }
         }
     }

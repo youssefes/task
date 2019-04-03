@@ -41,7 +41,7 @@ class DetailsVC: UIViewController {
                 self.pricelbl.text = dataprodect[0].price
                 self.nameLbl.text = dataprodect[0].name
             }else{
-                self.showError("Error", "there are some problems Ckeck your Internet")
+                self.showError("there are some problems Ckeck your Innternet" ,"Error")
             }
         }
     }

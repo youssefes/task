@@ -36,13 +36,11 @@ class LogIn: UIViewController {
                     getUserData.setData(token, Key: "token")
                  
                 }
-                
-               
                 if let vc = self.storyboard?.instantiateViewController(withIdentifier: "main"){
                     self.present(vc, animated: true, completion: nil)
                 }
             }else{
-                self.showError("Error", "there are some problems Ckeck your Internet")
+                self.showError("there are some problems Ckeck your Innternet" ,"Error")
             }
         }
     }

@@ -56,7 +56,7 @@ class Register: UIViewController {
                 
                 
             }else{
-                self.showError("Error", "there are some problems Ckeck your Internet")
+                self.showError("there are some problems Ckeck your Innternet" ,"Error")
             }
         }
     }

@@ -18,6 +18,9 @@ class Catagories: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        catagoriesTableView.tableFooterView = UIView()
+        catagoriesTableView.separatorInset = .zero
+        catagoriesTableView.contentInset = .zero
         catagoriesTableView.dataSource = self
         catagoriesTableView.delegate = self
         handelData()
@@ -30,10 +33,10 @@ class Catagories: UIViewController {
                 if let catagore = catagories{
                     self.Catagoreies = catagore
                     self.catagoriesTableView.reloadData()
-                }else{
-                    self.showError("Error", "there are some problems Ckeck your Innternet")
                 }
                 
+            }else{
+                self.showError("there are some problems Ckeck your Innternet" ,"Error")
             }
         }
     }

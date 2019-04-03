@@ -37,14 +37,16 @@ class myAccount: UIViewController {
                 self.nametxt.text = name
                 self.txtPhone.text = phone
                 self.emailTxt.text = email
+            }else{
+                self.showError("there are some problems Ckeck your Innternet" ,"Error")
             }
         }
     }
     
     func showMenu(){
-//        self.menuBtnOut.addTarget(self.revealViewController(), action: #selector(SWRevealViewController.rightRevealToggle(_:)), for: .touchUpInside)
-//        self.view.addGestureRecognizer((self.revealViewController()?.panGestureRecognizer())!)
-//        
+        self.menuBtnOut.addTarget(self.revealViewController(), action: #selector(SWRevealViewController.rightRevealToggle(_:)), for: .touchUpInside)
+        self.view.addGestureRecognizer((self.revealViewController()?.panGestureRecognizer())!)
+        
         let TapregognizerIm = UITapGestureRecognizer(target: self, action: #selector(showAllImageToChose))
         TapregognizerIm.numberOfTapsRequired = 1
         self.profileImage.addGestureRecognizer(TapregognizerIm)
@@ -91,7 +93,7 @@ class myAccount: UIViewController {
                     
                 }
             }else{
-                self.showError("Error", "there are some problems Ckeck your Internet")
+                self.showError("there are some problems Ckeck your Innternet" ,"Error")
             }
         }
     }
