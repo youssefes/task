@@ -103,6 +103,7 @@ extension subCatagoriesVC : UITableViewDataSource{
         cell?.pricelbl.text = productsData[indexPath.row].price
         cell?.titleProdect.text = productsData[indexPath.row].name
         view.rightToSuperview()
+        cell?.selectionStyle = .none
         return cell!
     }
     

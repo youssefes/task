@@ -70,6 +70,7 @@ extension Catagories : UITableViewDataSource{
                 cell?.mainImage.kf.setImage(with: image_Url)
             }
         }
+        cell?.selectionStyle = .none
         
         return cell!
     }
