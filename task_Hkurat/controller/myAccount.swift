@@ -20,13 +20,25 @@ class myAccount: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-       
-        self.profileImage.layoutIfNeeded()
-        self.profileImage.layer.cornerRadius = self.profileImage.frame.width/2
-        
-        profileImage.layer.masksToBounds = true
         showMenu()
+        handeDataUser()
         // Do any additional setup after loading the view.
+    }
+    
+    func handeDataUser(){
+        API.get_Detailes { (status, userInformation) in
+            if status{
+                guard let information = userInformation else {
+                    return
+                }
+                guard let name = information.name , let email =  information.email,let phone = information.phone else{
+                    return
+                }
+                self.nametxt.text = name
+                self.txtPhone.text = phone
+                self.emailTxt.text = email
+            }
+        }
     }
     
     func showMenu(){

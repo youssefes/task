@@ -54,3 +54,28 @@ struct productData {
     var price : String?
     
 }
+
+struct userDetail : Codable{
+   var success : userDetails?
+}
+
+struct userDetails : Codable {
+    var id : Int?
+    var name : String?
+    var email : String?
+    var phone : String?
+    var email_verified_at : String?
+    var front_card : String?
+    var back_card : String?
+    var front_licence : String?
+    var back_licence : String?
+    var lang:String?
+    var lat : String?
+    var code : Int?
+    var created_at : String?
+    var updated_at : String?
+    var image_front_card : String?
+    var image_back_card : String?
+    var image_front_licence : String?
+    var image_back_licence : String?
+}

@@ -7,6 +7,15 @@
 //
 
 import UIKit
+@IBDesignable
+class ImageCuircl : UIImageView{
+    @IBInspectable var corner_Reduis : CGFloat = 0.0 {
+        didSet{
+            layer.cornerRadius = corner_Reduis
+            layer.masksToBounds = true
+        }
+    }
+}
 
 class getUserData {
     

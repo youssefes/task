@@ -1933,12 +1933,17 @@
                                     </view>
                                 </subviews>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile2" translatesAutoresizingMaskIntoConstraints="NO" id="IZf-vM-Cpj">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile2" translatesAutoresizingMaskIntoConstraints="NO" id="IZf-vM-Cpj" customClass="ImageCuircl" customModule="task_Hkurat" customModuleProvider="target">
                                 <rect key="frame" x="157" y="110" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="4Wx-C2-lNh"/>
                                     <constraint firstAttribute="width" constant="100" id="ffQ-8a-vkW"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="corner_Reduis">
+                                        <real key="value" value="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PE7-Kl-pDg" customClass="BtnCornerReduis" customModule="task_Hkurat" customModuleProvider="target">
                                 <rect key="frame" x="132" y="550" width="150" height="40"/>
@@ -1969,9 +1974,11 @@
                             <constraint firstItem="KhE-ad-MFa" firstAttribute="top" secondItem="8s7-s3-VIH" secondAttribute="top" id="Fan-El-SRW"/>
                             <constraint firstItem="OsQ-9E-t29" firstAttribute="top" secondItem="IZf-vM-Cpj" secondAttribute="bottom" constant="20" id="HhM-rh-H70"/>
                             <constraint firstAttribute="trailing" secondItem="KhE-ad-MFa" secondAttribute="trailing" id="IjP-oc-GLZ"/>
+                            <constraint firstItem="fwl-dy-AUw" firstAttribute="trailing" secondItem="IZf-vM-Cpj" secondAttribute="trailing" constant="157" id="KRW-hz-hWs"/>
                             <constraint firstItem="IZf-vM-Cpj" firstAttribute="top" secondItem="KhE-ad-MFa" secondAttribute="bottom" constant="30" id="Ngc-Ew-u4N"/>
                             <constraint firstItem="PE7-Kl-pDg" firstAttribute="top" secondItem="OsQ-9E-t29" secondAttribute="bottom" constant="20" id="Uup-s2-9ss"/>
                             <constraint firstItem="IZf-vM-Cpj" firstAttribute="centerX" secondItem="8s7-s3-VIH" secondAttribute="centerX" id="b1Y-Wx-Vrb"/>
+                            <constraint firstItem="IZf-vM-Cpj" firstAttribute="leading" secondItem="fwl-dy-AUw" secondAttribute="leading" constant="157" id="g6r-HJ-4q9"/>
                             <constraint firstItem="fwl-dy-AUw" firstAttribute="trailing" secondItem="OsQ-9E-t29" secondAttribute="trailing" constant="16" id="iSq-iZ-HgK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fwl-dy-AUw"/>
@@ -1986,7 +1993,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5L0-e2-ojL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7474" y="1185"/>
+            <point key="canvasLocation" x="7473.9130434782619" y="1184.5108695652175"/>
         </scene>
     </scenes>
     <resources>

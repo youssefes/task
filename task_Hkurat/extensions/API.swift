@@ -186,13 +186,6 @@ class API : UIViewController{
         guard let url = URL(string: "http://ksaa.elhdf.com.sa/api/update?email=\(email)&name=\(name)&phone=\(Phone)") else{
             return
         }
-        
-//        let parameter : Parameters = [
-//            "email" : email,
-//            "name" : name,
-//            "phone" :Phone
-//        
-//        ]
         guard let Token = getUserData.callData("token") else{
             return
         }
@@ -238,20 +231,8 @@ class API : UIViewController{
                 }
             }
             
-            
-            
         }
         
-        
-        //        Alamofire.request(url, method: .put, parameters: parameter, encoding: JSONEncoding.default, headers: header).responseJSON { (respond) in
-        //
-        //            do {
-        //                let data = try JSONDecoder().decode(userIfo.self, from: respond.data!)
-        //                print(data)
-        //            }catch{
-        //                print(error)
-        //            }
-        //        }
     }
     
     // MARK : Prodects
@@ -272,8 +253,6 @@ class API : UIViewController{
         ]
         
         Alamofire.request(Url, method: .get, parameters: nil, encoding: JSONEncoding.default, headers: header).responseJSON { (respond) in
-            
-            print(respond.value)
             do {
                 let data = try JSONDecoder().decode(productdata.self, from: respond.data!)
                 print(data)
@@ -286,6 +265,38 @@ class API : UIViewController{
             }catch{
                 print(error)
                 complation(nil, false)
+            }
+        }
+    }
+    
+    //Mark : Get_Details
+    
+    class func get_Detailes(complation : @escaping (_ status: Bool, _ userD : userDetails? )-> Void){
+        
+        
+        guard let Url = URL(string: "http://ksaa.elhdf.com.sa/api/get-details") else{
+            return
+        }
+        guard let Token = getUserData.callData("token") else{
+            return
+        }
+        let header : HTTPHeaders = [
+            "Accept" : "application/json",
+            "Authorization" : "Bearer \(Token)"
+        ]
+        
+        Alamofire.request(Url, method: .post, parameters: nil, encoding: JSONEncoding.default, headers: header).responseJSON { (respond) in
+            
+            
+            
+            do {let result = try JSONDecoder().decode(userDetail.self, from: respond.data!)
+                if  let dataus = result.success {
+                    complation(true, dataus)
+                }
+                
+            }catch{
+                print(error)
+                complation(false, nil)
             }
         }
     }
