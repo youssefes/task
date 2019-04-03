@@ -9,5 +9,8 @@ target 'task_Hkurat' do
 pod 'IQKeyboardManagerSwift'
 pod 'Cosmos'
 pod 'TinyConstraints'
+pod 'Alamofire'
+pod 'SwiftyJSON', '~> 4.0'
+pod 'Kingfisher'
 
 end

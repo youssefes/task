@@ -1,24 +1,36 @@
 PODS:
+  - Alamofire (4.8.1)
   - Cosmos (18.0.1)
   - IQKeyboardManagerSwift (6.2.0)
+  - Kingfisher (5.2.0)
+  - SwiftyJSON (4.2.0)
   - TinyConstraints (3.3.1)
 
 DEPENDENCIES:
+  - Alamofire
   - Cosmos
   - IQKeyboardManagerSwift
+  - Kingfisher
+  - SwiftyJSON (~> 4.0)
   - TinyConstraints
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
     - Cosmos
     - IQKeyboardManagerSwift
+    - Kingfisher
+    - SwiftyJSON
     - TinyConstraints
 
 SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
   Cosmos: 7dfaa3f52584ca5f94ab74b5c2e264019cc9f7f5
   IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
+  Kingfisher: 07067cfacf371117330dceb4b4b8f5c4b691ab42
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
   TinyConstraints: dbf7519aefc01ea59d62244300c7718aec68e280
 
-PODFILE CHECKSUM: 5fcbb18dbcfb3fd40147153985176d07484c84c1
+PODFILE CHECKSUM: 94c70bd63c5af87b10987a8765fadfa9186a8aea
 
 COCOAPODS: 1.6.1

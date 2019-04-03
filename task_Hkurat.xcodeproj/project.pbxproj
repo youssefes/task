@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67030255224828C800D3D53D /* myOrders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67030254224828C800D3D53D /* myOrders.swift */; };
+		6703025C2248350800D3D53D /* mapscreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6703025B2248350800D3D53D /* mapscreen.swift */; };
+		6703026222484C9700D3D53D /* menuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6703026122484C9700D3D53D /* menuVC.swift */; };
+		6703026C224853F100D3D53D /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6703026A224853EC00D3D53D /* SWRevealViewController.m */; };
+		6703026E2248637800D3D53D /* contact_Us.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6703026D2248637800D3D53D /* contact_Us.swift */; };
+		670302702248639A00D3D53D /* myAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6703026F2248639A00D3D53D /* myAccount.swift */; };
+		67444A1722540EC300731616 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67444A1622540EC300731616 /* DetailsVC.swift */; };
 		6782E811224667CB00EE19B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6782E810224667CB00EE19B5 /* AppDelegate.swift */; };
 		6782E813224667CB00EE19B5 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6782E812224667CB00EE19B5 /* Register.swift */; };
 		6782E816224667CB00EE19B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6782E814224667CB00EE19B5 /* Main.storyboard */; };
@@ -19,6 +26,9 @@
 		6782E82F224675D800EE19B5 /* Cairo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6782E828224675D800EE19B5 /* Cairo-SemiBold.ttf */; };
 		6782E830224675D800EE19B5 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6782E829224675D800EE19B5 /* OFL.txt */; };
 		6782E8332246793600EE19B5 /* CornerReduis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6782E8322246793600EE19B5 /* CornerReduis.swift */; };
+		6786B8882252A011009EF555 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6786B8872252A011009EF555 /* API.swift */; };
+		6786B88B2252A075009EF555 /* models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6786B88A2252A075009EF555 /* models.swift */; };
+		6786B88D2252AF24009EF555 /* helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6786B88C2252AF24009EF555 /* helper.swift */; };
 		678B20972246D75E00B44ABA /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678B20962246D75E00B44ABA /* LogIn.swift */; };
 		678B20992246E6E900B44ABA /* cellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678B20982246E6E900B44ABA /* cellData.swift */; };
 		678B209D2246E75100B44ABA /* Catagories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678B209C2246E75100B44ABA /* Catagories.swift */; };
@@ -30,6 +40,15 @@
 
 /* Begin PBXFileReference section */
 		288F0EB583C7BC0283E27788 /* Pods-task_Hkurat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-task_Hkurat.debug.xcconfig"; path = "Target Support Files/Pods-task_Hkurat/Pods-task_Hkurat.debug.xcconfig"; sourceTree = "<group>"; };
+		67030254224828C800D3D53D /* myOrders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myOrders.swift; sourceTree = "<group>"; };
+		6703025B2248350800D3D53D /* mapscreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapscreen.swift; sourceTree = "<group>"; };
+		6703026122484C9700D3D53D /* menuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuVC.swift; sourceTree = "<group>"; };
+		67030269224853E800D3D53D /* task_Hkurat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "task_Hkurat-Bridging-Header.h"; sourceTree = "<group>"; };
+		6703026A224853EC00D3D53D /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		6703026B224853EF00D3D53D /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		6703026D2248637800D3D53D /* contact_Us.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contact_Us.swift; sourceTree = "<group>"; };
+		6703026F2248639A00D3D53D /* myAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAccount.swift; sourceTree = "<group>"; };
+		67444A1622540EC300731616 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
 		6782E80D224667CB00EE19B5 /* task_Hkurat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = task_Hkurat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6782E810224667CB00EE19B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6782E812224667CB00EE19B5 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
@@ -44,6 +63,9 @@
 		6782E828224675D800EE19B5 /* Cairo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-SemiBold.ttf"; sourceTree = "<group>"; };
 		6782E829224675D800EE19B5 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		6782E8322246793600EE19B5 /* CornerReduis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerReduis.swift; sourceTree = "<group>"; };
+		6786B8872252A011009EF555 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		6786B88A2252A075009EF555 /* models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = models.swift; sourceTree = "<group>"; };
+		6786B88C2252AF24009EF555 /* helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helper.swift; sourceTree = "<group>"; };
 		678B20962246D75E00B44ABA /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
 		678B20982246E6E900B44ABA /* cellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellData.swift; sourceTree = "<group>"; };
 		678B209C2246E75100B44ABA /* Catagories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catagories.swift; sourceTree = "<group>"; };
@@ -66,10 +88,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6703026322484F6700D3D53D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6703026B224853EF00D3D53D /* SWRevealViewController.h */,
+				6703026A224853EC00D3D53D /* SWRevealViewController.m */,
+				67030269224853E800D3D53D /* task_Hkurat-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		6782E804224667CB00EE19B5 = {
 			isa = PBXGroup;
 			children = (
-				6782E822224675D800EE19B5 /* cairo */,
 				6782E80F224667CB00EE19B5 /* task_Hkurat */,
 				6782E80E224667CB00EE19B5 /* Products */,
 				78084D918E041F777E9F3512 /* Pods */,
@@ -88,6 +119,9 @@
 		6782E80F224667CB00EE19B5 /* task_Hkurat */ = {
 			isa = PBXGroup;
 			children = (
+				6703026322484F6700D3D53D /* Supporting Files */,
+				6786B8892252A051009EF555 /* model */,
+				6782E822224675D800EE19B5 /* cairo */,
 				678B20952246D72600B44ABA /* Views */,
 				678B20942246D70C00B44ABA /* controller */,
 				6782E831224678F400EE19B5 /* extensions */,
@@ -117,9 +151,19 @@
 		6782E831224678F400EE19B5 /* extensions */ = {
 			isa = PBXGroup;
 			children = (
+				6786B8872252A011009EF555 /* API.swift */,
 				6782E8322246793600EE19B5 /* CornerReduis.swift */,
+				6786B88C2252AF24009EF555 /* helper.swift */,
 			);
 			path = extensions;
+			sourceTree = "<group>";
+		};
+		6786B8892252A051009EF555 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				6786B88A2252A075009EF555 /* models.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 		678B20942246D70C00B44ABA /* controller */ = {
@@ -129,6 +173,12 @@
 				678B20962246D75E00B44ABA /* LogIn.swift */,
 				678B209C2246E75100B44ABA /* Catagories.swift */,
 				67D63E132247042400840B08 /* subCatagoriesVC.swift */,
+				67030254224828C800D3D53D /* myOrders.swift */,
+				6703025B2248350800D3D53D /* mapscreen.swift */,
+				6703026122484C9700D3D53D /* menuVC.swift */,
+				6703026D2248637800D3D53D /* contact_Us.swift */,
+				6703026F2248639A00D3D53D /* myAccount.swift */,
+				67444A1622540EC300731616 /* DetailsVC.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -193,6 +243,7 @@
 				TargetAttributes = {
 					6782E80C224667CB00EE19B5 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -244,16 +295,22 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-task_Hkurat/Pods-task_Hkurat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TinyConstraints.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,13 +348,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				6782E813224667CB00EE19B5 /* Register.swift in Sources */,
+				6786B88B2252A075009EF555 /* models.swift in Sources */,
+				670302702248639A00D3D53D /* myAccount.swift in Sources */,
 				6782E811224667CB00EE19B5 /* AppDelegate.swift in Sources */,
 				67D63E142247042400840B08 /* subCatagoriesVC.swift in Sources */,
+				6786B8882252A011009EF555 /* API.swift in Sources */,
+				6786B88D2252AF24009EF555 /* helper.swift in Sources */,
 				6782E8332246793600EE19B5 /* CornerReduis.swift in Sources */,
 				678B20992246E6E900B44ABA /* cellData.swift in Sources */,
+				67030255224828C800D3D53D /* myOrders.swift in Sources */,
+				6703025C2248350800D3D53D /* mapscreen.swift in Sources */,
 				678B20972246D75E00B44ABA /* LogIn.swift in Sources */,
+				6703026222484C9700D3D53D /* menuVC.swift in Sources */,
+				67444A1722540EC300731616 /* DetailsVC.swift in Sources */,
 				678B209D2246E75100B44ABA /* Catagories.swift in Sources */,
 				67D63E16224704CF00840B08 /* subCatacell.swift in Sources */,
+				6703026C224853F100D3D53D /* SWRevealViewController.m in Sources */,
+				6703026E2248637800D3D53D /* contact_Us.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +511,7 @@
 			baseConfigurationReference = 288F0EB583C7BC0283E27788 /* Pods-task_Hkurat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = task_Hkurat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -452,6 +520,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "personal.task-Hkurat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "task_Hkurat/Supporting Files/task_Hkurat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,6 +532,7 @@
 			baseConfigurationReference = B57C6E78DD0D32152CDBE08B /* Pods-task_Hkurat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = task_Hkurat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,6 +541,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "personal.task-Hkurat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "task_Hkurat/Supporting Files/task_Hkurat-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

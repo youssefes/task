@@ -7,40 +7,77 @@
 //
 
 import UIKit
+import Kingfisher
 
 class Catagories: UIViewController {
     @IBOutlet weak var catagoriesTableView: UITableView!
     
-    var CatagoriesImage = ["food","background","cofe","other"]
-    var CatagoreiesName = ["المطاعم والماكولات","خضراوات وبقالة","كفيهات","طلبات اخري"]
+    @IBOutlet weak var menuBtnOut: UIButton!
+    var Catagoreies = [categores]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         catagoriesTableView.dataSource = self
         catagoriesTableView.delegate = self
-        
+        handelData()
+        showMenu()
     }
+    
+    func handelData(){
+        API.categories { (status, catagories) in
+            if status{
+                if let catagore = catagories{
+                    self.Catagoreies = catagore
+                    self.catagoriesTableView.reloadData()
+                }else{
+                    self.showError("Error", "there are some problems Ckeck your Innternet")
+                }
+                
+            }
+        }
+    }
+    
+    func showMenu(){
+        self.menuBtnOut.addTarget(self.revealViewController(), action: #selector(SWRevealViewController.rightRevealToggle(_:)), for: .touchUpInside)
+        self.view.addGestureRecognizer((self.revealViewController()?.panGestureRecognizer())!)
+    }
+    
+    @IBAction func back(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
+    }
+    
 
 }
 
 extension Catagories : UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
+        return Catagoreies.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellCatagories", for: indexPath) as? cellData
-        let image = self.CatagoriesImage[indexPath.row]
-        let name = self.CatagoreiesName[indexPath.row]
-        cell?.mainImage.image = UIImage(named: image)
-        cell?.nameCatagories.text = name
+        if  let name = Catagoreies[indexPath.row].name {
+            cell?.nameCatagories.text = name
+        }
+        DispatchQueue.main.async {
+            if let image_path = self.Catagoreies[indexPath.row].image_path{
+                let image_Url = URL(string: image_path)
+                cell?.mainImage.kf.indicatorType = .activity
+                cell?.mainImage.kf.setImage(with: image_Url)
+            }
+        }
+        
         return cell!
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if let vc = storyboard?.instantiateViewController(withIdentifier: "subCatagoriesVC") as? subCatagoriesVC{
-            vc.titleOfSubCata = CatagoreiesName[indexPath.row]
-            present(vc, animated: true, completion: nil)
+        if let vcData = storyboard?.instantiateViewController(withIdentifier: "subCatagoriesVC") as? subCatagoriesVC{
+            if Catagoreies.count > 0{
+                vcData.id = self.Catagoreies[indexPath.row].id!
+                vcData.titleOfSubCata = self.Catagoreies[indexPath.row].name!
+                present(vcData, animated: true, completion: nil)
+            }
+           
         }
         
     }

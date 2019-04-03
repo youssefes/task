@@ -19,6 +19,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         IQKeyboardManager.shared.enable = true
+        UITabBar.appearance().unselectedItemTintColor = UIColor.white
+        
+//        if let userId = getUserData.callData("token"){
+//            print(userId)
+//            let tab = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "main")
+//            window?.rootViewController = tab
+//        }
         return true
     }
 

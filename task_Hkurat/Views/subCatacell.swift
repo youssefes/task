@@ -12,6 +12,8 @@ class subCatacell: UITableViewCell {
 
     @IBOutlet weak var imageSub: UIImageView!
     
+    @IBOutlet weak var pricelbl: UILabel!
+    @IBOutlet weak var titleProdect: UILabel!
     @IBOutlet weak var limitlbl: UILabel!
     @IBOutlet weak var distancelbl: UILabel!
     @IBOutlet weak var timelbl: UILabel!

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F8DC48257D0952FE90A2297BDDD4EEF0"
+               BlueprintIdentifier = "F6E75B7A7BACD82307DE3A457A821D9B"
                BuildableName = "Pods_task_Hkurat.framework"
                BlueprintName = "Pods-task_Hkurat"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F8DC48257D0952FE90A2297BDDD4EEF0"
+            BlueprintIdentifier = "F6E75B7A7BACD82307DE3A457A821D9B"
             BuildableName = "Pods_task_Hkurat.framework"
             BlueprintName = "Pods-task_Hkurat"
             ReferencedContainer = "container:Pods.xcodeproj">

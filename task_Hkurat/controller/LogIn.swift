@@ -10,12 +10,42 @@ import UIKit
 
 class LogIn: UIViewController {
 
+    @IBOutlet weak var NameOrEmailtxt: UITextField!
+    
+    @IBOutlet weak var passwordtxt: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
         // Do any additional setup after loading the view.
     }
     
+    func handelData(){
+        
+        guard let emailOrName = NameOrEmailtxt.text, !emailOrName.isEmpty, let password = passwordtxt.text, !password.isEmpty else{
+            return
+        }
+        API.Login(email: emailOrName, password: password) { (status, userINF) in
+            if status{
+                guard let data = userINF else{
+                    return
+                }
+                getUserData.user_data = data
+                
+                if let token = getUserData.user_data.token{
+                    getUserData.setData(token, Key: "token")
+                 
+                }
+                
+               
+                if let vc = self.storyboard?.instantiateViewController(withIdentifier: "main"){
+                    self.present(vc, animated: true, completion: nil)
+                }
+            }else{
+                self.showError("Error", "there are some problems Ckeck your Internet")
+            }
+        }
+    }
 
     /*
     // MARK: - Navigation
@@ -27,12 +57,12 @@ class LogIn: UIViewController {
     }
     */
     @IBAction func Register(_ sender: UIButton) {
-        
-        if let vc = storyboard?.instantiateViewController(withIdentifier: "register") as? Register {
-            
-            self.navigationController?.pushViewController(vc, animated: true)
+        if let vc = storyboard?.instantiateViewController(withIdentifier: "register") as? Register{
+            present(vc, animated: true, completion: nil)
         }
-        
     }
     
+    @IBAction func login(_ sender: Any) {
+        handelData()
+    }
 }
